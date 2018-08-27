@@ -50,9 +50,10 @@
 }
 
 .seperator {
+    border-radius: 6px;
 	height:20px;
 	margin: 20px auto;
-	box-shadow:1px 5px 5px -1px rgba(0,0,0,0.5);
+	box-shadow:0 0 15px -3px rgba(0,0,0,0.5);
 }
 
 /* Form Construction Elements */
@@ -120,7 +121,7 @@ input {
 
 }
 
-/* Customer Check box css */
+/* Custom Check box css */
 
 /* Base for label styling */
 [type="checkbox"]:not(:checked),
@@ -573,12 +574,6 @@ input[type="submit"]:active {
 
 /* Tabs Style */
 
-/* Tabs */
-.tabs {
-    width:100%;
-    display:inline-block;
-}
- 
 /* Tab Links */
 /* Clearfix */
 .tab-links:after {
@@ -587,19 +582,17 @@ input[type="submit"]:active {
 	content:'';
 }
 
-ul.tab-links {
+ol.tab-links {
 	margin: 0;
 	padding: 0;
 }
 
 .tab-links li {
-	margin:0px 5px;
-	float:left;
+	margin:0px 5px !important;
 	list-style:none;
-	padding: 0;
 }
 
-.tab-links a {
+.tab-links .tab-list-item {
 	padding:9px 15px;
 	display:inline-block;
 	border-radius:3px 3px 0px 0px;
@@ -616,8 +609,8 @@ ul.tab-links {
 	text-decoration:none;
 }
 
-li.active a, li.active a:hover {
-	background:#f2f2f2;
+.tab-links-active {
+	background:#f2f2f2 !important;
 	color:#4c4c4c;
 }
 
@@ -625,24 +618,19 @@ li.active a, li.active a:hover {
 .tab-content {
 	padding:15px;
 	border-radius:3px;
-	box-shadow:-1px 1px 5px rgba(0,0,0,0.15);
+	box-shadow:-1px 1px 4px rgba(0,0,0,0.15);
 	background:#fff;
-	border: 1px solid;
-}
-
-.tab {
-	display:none;
-}
-
-.tab.active {
-	display:block;
+	border: 1px solid #f2f2f2;
 }
 
 /* Fixed Tabs */
 
-.fixed-tabs.tab-content {
+.fixed-tabs {
 	height: 280px;
 }
+
+/* End */
+
 
 
 /* Accordion */
@@ -705,7 +693,6 @@ li.active a, li.active a:hover {
 /* Menu */
 @media screen and (min-width: 860px) {
     .menu {
-        width:100%;
         padding:0 18px;
 		box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.5);
         border-radius:3px;
@@ -715,8 +702,7 @@ li.active a, li.active a:hover {
  
 .menu ul {
     display:inline-block;
-	padding: 0;
-	margin: 10px auto;
+	padding: 0 20px;
 }
  
 .menu li {

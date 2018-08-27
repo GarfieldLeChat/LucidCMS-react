@@ -15,7 +15,7 @@ import Home from "./Home";
 import ImageUploaderPositioner from "./ImageUploaderPositioner";
 import Menus from "./Menus";
 import PromoImageUploaderPositioner from "./PromoImageUploaderPositioner";
-import Tabs from "./Tabs";
+import TabIndex from "./TabsIndex";
 
 class Main extends Component {
   render() {
@@ -26,7 +26,7 @@ class Main extends Component {
                     <nav className="menu">
                         <ul className="active clearfix">
                             <li className="current-item"><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink exact to="/content-display">Content Display/Typography</NavLink></li>
+                            <li><NavLink exact to="/content-display">HTMLContent Display/Typography</NavLink></li>
                             <li><NavLink to="/tabs">Tabs</NavLink></li>
                             <li><NavLink to="/accordion">Accordion</NavLink></li>
                             <li><NavLink to="/forms">Forms</NavLink></li>
@@ -53,7 +53,7 @@ class Main extends Component {
                 <div className="content">
                     <Route exact path="/" component={Home}/>
                     <Route path="/content-display" component={ContentDisplay}/>
-                    <Route path="/tabs" component={Tabs}/>
+                    <Route path="/tabs" component={TabIndex} />
                     <Route path="/accordion" component={Accordion}/>
                     <Route path="/forms" component={Forms}/>
                     <Route path="/menus" component={Menus}/>
