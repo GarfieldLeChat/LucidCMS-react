@@ -1,1 +1,1 @@
-Basic rewrite of y previous frameworks in react
+Basic rewrite of my previous frameworks in react
