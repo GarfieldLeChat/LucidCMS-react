@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import TabsActionClick from './TabsComponent/TabsClick';
+import TabsActionClickFixed from './TabsComponent/TabsClickFixed'
 
 require('./assets/styles/styles.css');
 
@@ -40,7 +41,7 @@ class TabIndex extends Component {
             </div>
           </TabsActionClick>
           <h2>Fixed Height Tabs</h2>
-          <TabsActionClick>
+          <TabsActionClickFixed>
             <div label="Tab 1">
               <p>Hi, this is the first tab.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue nunc, semper vel felis quis, suscipit feugiat turpis. Suspendisse potenti. In in tellus vehicula magna dapibus tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus mauris dui, ultrices in elit nec, condimentum vestibulum augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse rutrum vehicula libero, non gravida orci viverra eu. In pharetra nisi neque, eget semper ex viverra et. Vivamus a sem elementum, lacinia diam in, convallis ex. Proin velit diam, blandit non pulvinar vitae, gravida sed lectus. Nulla blandit, nisl non auctor luctus, nibh justo posuere velit, at blandit ligula tellus vitae tellus. Donec a semper metus, vitae vestibulum turpis. Suspendisse sed posuere mauris, convallis egestas est. Aliquam erat volutpat.  </p>
@@ -53,7 +54,7 @@ class TabIndex extends Component {
               <p>And this is the 3rd tab.</p>
               <p>Proin eget mauris neque. Aenean id urna sit amet magna tincidunt gravida. Phasellus ultrices a diam vel consequat. Etiam pharetra erat vel fringilla pharetra. Proin posuere viverra quam, id finibus erat porttitor id. Vivamus elementum, orci eget viverra suscipit, arcu risus dictum arcu, vitae faucibus nisi ex mattis quam. Nam semper quis risus ac fermentum. Donec sodales massa et risus sagittis, faucibus porttitor felis tincidunt. Aenean ac pulvinar metus. Praesent viverra suscipit ipsum eget aliquam.</p>
             </div>
-          </TabsActionClick>
+          </TabsActionClickFixed>
           <h2>Selected Tab</h2>
           <TabsActionClick>
             <div label="Tab 1">
