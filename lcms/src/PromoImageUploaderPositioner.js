@@ -15,12 +15,12 @@ class PromoImageUploaderPositioner extends Component {
                 <div id="preview" >
                     <div class="productImage">
                         <h1>PLP Image</h1>
-                        <img src={plp} alt="Dummy Product Lister Page Image" class="promoRoundel" />
+                        <img src={plp} alt="Dummy Product Lister Page" class="promoRoundel" />
                         <div class="promoRoundelOutput"></div>
                     </div>
                     <div class="productImage lineLeft">
                         <h1>PDP Image</h1>
-                        <img src={pdp} alt="Dummy Product Decription Page Image" class="promoRoundel" />
+                        <img src={pdp} alt="Dummy Product Decription Page" class="promoRoundel" />
                         <div class="promoRoundelOutput"></div>
                     </div>
                 </div>

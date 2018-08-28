@@ -8,21 +8,21 @@ class Menus extends Component {
 
         <nav class="menu">
             <ul class="active clearfix">
-                <li class="current-item"><a href="#">Home</a></li>
-                <li><a href="#">Menu 1</a></li>
-                <li><a href="#">Menu 2<span class="arrow">&nbsp;&#9660;</span></a>
+                <li class="current-item"><a href="">Home</a></li>
+                <li><a href="">Menu 1</a></li>
+                <li><a href="">Menu 2<span class="arrow">&nbsp;&9660;</span></a>
                     <ul class="sub-menu">
-                        <li><a href="#">Sub Item 1</a></li>
-                        <li><a href="#">Sub Item 2</a></li>
-                        <li><a href="#">Sub Item 3</a></li>
-                        <li><a href="#">Sub Item 4</a></li>
+                        <li><a href="">Sub Item 1</a></li>
+                        <li><a href="">Sub Item 2</a></li>
+                        <li><a href="">Sub Item 3</a></li>
+                        <li><a href="">Sub Item 4</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Menu 3</a></li>
-                <li><a href="#">Menu 4</a></li>
+                <li><a href="">Menu 3</a></li>
+                <li><a href="">Menu 4</a></li>
             </ul>
         
-            <a class="toggle-nav" href="#">&#9776;</a>
+            <a class="toggle-nav" href="">&9776;</a>
         
             <form class="search-form">
                 <input type="text" placeholder="Search..." />

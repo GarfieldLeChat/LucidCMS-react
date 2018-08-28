@@ -36,7 +36,7 @@ class Main extends Component {
                             <li><NavLink to="/promo-image-uploader-positioner">Promo Roundels</NavLink></li>
                         </ul>
 
-                        <a className="toggle-nav" href="#">&#9776;</a>
+                        <a className="toggle-nav" href="">&#9776;</a>
 
                         {/*  -- React formm to add in here -- 
                             -- make generic form for entire SearchForm.js build as single componet and reuse -- */}
