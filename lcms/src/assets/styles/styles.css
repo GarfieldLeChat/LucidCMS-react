@@ -63,10 +63,6 @@
 	color:#333;
 }
 
-.form {
-
-}
-
 .formElement {
   margin: 10px 0;
   height: auto;
@@ -76,7 +72,6 @@
 
 .formLabel {
   float: left;
-  display: inline-block;
   padding: 0 10px;
 }
 
@@ -84,9 +79,6 @@
 	margin: 5px 0;
 	height: auto;
 	min-height: 20px;
-}
-
-.label {
 }
 
 .required:after {
@@ -110,16 +102,9 @@ input {
 
 /* Check Boxes */
 
-.label-checkbox {
-
-}
 .checkbox {
 	height:15px;
 } 
-
-.checkbox-option {
-
-}
 
 /* Custom Check box css */
 
@@ -195,10 +180,6 @@ label:hover:before {
 
 /* Radio Buttons */
 
-.label-radio-button {
-	
-}
-
 .radio-button-option {
 	height:15px;
 }
@@ -270,10 +251,6 @@ label:hover:before {
 
 /* Password Field */
 
-.label-password {
-
-}
-
 .password {
   box-shadow: 1px 1px 2px #333;
 }
@@ -296,18 +273,6 @@ label.label.label-checkbox.button.checkbox-password {
 
 /* Select Boxes : Note the main styling for select boxes comes from Chosen JS and CSS these are merely constructor styles and SHOULD NOT BE USED for styling the Select boxes */
 
-.label-select-box {
-
-}
-
-.select-box {
-
-}
-
-.option {
-
-}
-
 /* Chosen Styles */
 
 .chosen-container {
@@ -315,10 +280,6 @@ label.label.label-checkbox.button.checkbox-password {
 }
 
 /* File Upload */
-
-.label-file {
-
-}
 
 .uploadFile,
 .uploadImage,
@@ -370,39 +331,11 @@ label.label.label-checkbox.button.checkbox-password {
 
 /* Text Fields : Standard Input boxes */
 
-.label-text {
-
-}
-
-.text {
-
-}
-
 /* Email Input Fields */
-
-.label-email {
-
-}
-
-.email {
-
-}
 
 /* URL Input Fields */
 
-.label-url {
-
-}
-
-.url {
-
-}
-
 /* Intiger/Number Fields */
-
-.label-number {
-
-}
 
 .number {
 	font-size: 20px;
@@ -413,14 +346,6 @@ label.label.label-checkbox.button.checkbox-password {
 }
 
 /* Range Slider Field */
-
-.label-range {
-
-}
-
-.range {
-
-}
 
 span.rangeValue1 {
 	bottom: 10px;
@@ -567,10 +492,6 @@ input[type="submit"]:active {
 }
 
 /* Forms - Specific */ 
-
-#form1 {
-
-}
 
 /* Tabs Style */
 
@@ -743,7 +664,6 @@ ol.tab-links {
 /* Search */
 .search-form {
     float:right;
-    display:inline-block;
 	position: relative;
 	top: 5px;
 	left: 12px;
@@ -784,13 +704,9 @@ ol.tab-links {
 /*----- Top Level -----*/
 .menu > ul > li {
     float:left;
-    display:inline-block;
     position:relative;
 }
- 
-.menu > ul > li > a {
-}
- 
+
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
 	background: #e4e4e4;
 	border-radius: 5px 5px 0 0;
@@ -1033,7 +949,6 @@ p.carousel-slide-text {
     .toggle-nav {
         padding:20px;
         float:left;
-        display:inline-block;
 		box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.5);
         border-radius:3px;
         background:#f2f2f2;
@@ -1065,9 +980,6 @@ p.carousel-slide-text {
 .menu > ul > li {
     float:none;
     display:block;
-}
- 
-.menu > ul > li > a {
 }
 
 .sub-menu {
