@@ -11,15 +11,12 @@ class TabOnClick extends Component {
   onClick = () => {
     const { label, onClick } = this.props;
     onClick(label);
-  }
+  };
 
   render() {
-    const { 
+    const {
       onClick,
-      props: {
-        activeTab,
-        label,
-      },
+      props: { activeTab, label },
     } = this;
 
     let className = 'tab-list-item';
@@ -29,15 +26,11 @@ class TabOnClick extends Component {
     }
 
     return (
-      <li 
-        className={className}
-        onClick={onClick}
-      >
+      <li className={className} onClick={onClick}>
         {label}
       </li>
     );
   }
 }
-
 
 export default TabOnClick;

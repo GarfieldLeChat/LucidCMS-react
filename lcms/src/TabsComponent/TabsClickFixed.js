@@ -6,7 +6,7 @@ import TabOnClick from './TabOnClick';
 class TabsActionClickFixed extends Component {
   static propTypes = {
     children: PropTypes.instanceOf(Array).isRequired,
-  }
+  };
 
   constructor(props) {
     super(props);
@@ -16,25 +16,21 @@ class TabsActionClickFixed extends Component {
     };
   }
 
-  onClickTabItem = (tab) => {
+  onClickTabItem = tab => {
     this.setState({ activeTab: tab });
-  }
+  };
 
   render() {
     const {
       onClickTabItem,
-      props: {
-        children,
-      },
-      state: {
-        activeTab,
-      }
+      props: { children },
+      state: { activeTab },
     } = this;
 
     return (
       <div className="tabs default">
         <ol className="tab-links">
-          {children.map((child) => {
+          {children.map(child => {
             const { label } = child.props;
 
             return (
@@ -48,7 +44,7 @@ class TabsActionClickFixed extends Component {
           })}
         </ol>
         <div className="fixed-tabs tab-content">
-          {children.map((child) => {
+          {children.map(child => {
             if (child.props.label !== activeTab) return undefined;
             return child.props.children;
           })}
