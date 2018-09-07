@@ -5,6 +5,8 @@ import "./assets/styles/index.css";
 import "./assets/styles/image-uploader.css";
 import "./assets/styles/promo-image-uploader.css";
 import "./assets/styles/styles.css";
+import "./assets/styles/tabs.css";
+import "./assets/styles/accordion.css";
 import "./assets/styles/typography.css"
  
 ReactDOM.render(

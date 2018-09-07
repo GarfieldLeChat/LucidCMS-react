@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
 
 import Accordion from './Accordion';
+import AccordionOutput from './AccordionComponent/Accordion';
 import Carousel from './Carousel';
 import ContentDisplay from './HTMLElements/ContentDisplay';
 import Forms from './Forms';
@@ -24,6 +25,7 @@ class Main extends Component {
               <li><NavLink exact to="/content-display">HTMLContent Display/Typography</NavLink></li>
               <li><NavLink to="/tabs">Tabs</NavLink></li>
               <li><NavLink to="/accordion">Accordion</NavLink></li>
+              <li><NavLink to="/accordion1">Accordion</NavLink></li>
               <li><NavLink to="/forms">Forms</NavLink></li>
               <li><NavLink to="/menus">Menus</NavLink></li>
               <li><NavLink to="/carousel">Carousel</NavLink></li>
@@ -49,6 +51,7 @@ class Main extends Component {
             <Route path="/content-display" component={ContentDisplay} />
             <Route path="/tabs" component={TabIndex} />
             <Route path="/accordion" component={Accordion} />
+            <Route path="/accordion1" component={AccordionOutput} />
             <Route path="/forms" component={Forms} />
             <Route path="/menus" component={Menus} />
             <Route path="/carousel" component={Carousel} />
